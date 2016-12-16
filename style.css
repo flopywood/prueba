@@ -127,18 +127,7 @@ footer p span {
 }
 @media (max-width: 767px) {
   ul{
-    position: relative;
-    margin-left: -2%;
-  }
-  li{
-    float: none;
-    line-height:50px;
-    margin-left:
-  }
-  li a{
-    text-align: center;
-    /*background-color: rgb(255, 255, 255);
-    color: rgb(95, 95,95);*/
+    display: none;
   }
   #logo{
     margin: 0;
@@ -166,6 +155,8 @@ footer p span {
   }
   footer{
     display: block;
+    padding: 2%;
+    font-size: 75%;
   }
 
 }
