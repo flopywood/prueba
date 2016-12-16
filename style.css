@@ -68,7 +68,6 @@ button{
   display: flex;
   flex-direction: row;
   justify-content: center;
-  max-width: 100%;
   margin-bottom: 2%;
   flex-wrap: wrap;
 }
@@ -126,7 +125,29 @@ footer p span {
   float: right;
   padding-right: 4.1%;
 }
-@media (max-width: 400px) {
-  .row{display: block!important; text-align: center;justify-content: center;margin-left: 17%; padding: 0;}
-  #square1{height: 150px; width: 270px; margin-left: 3%;}
+@media (max-width: 767px) {
+  ul{
+    display: block;
+  }
+  li a{
+    font-size: 75%;
+    padding-left: 0;
+  }
+  .row{
+    display: inline-block;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-left: 15%;
+  }
+  #square1{
+    height: 150px;
+    width: 270px;
+    margin-left: 3%;
+  }
+  footer{
+    display: block;
+  }
+
 }
