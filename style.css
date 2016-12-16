@@ -84,6 +84,9 @@ button{
 }
 #square1 {
   flex-basis: 25%;
+  /*min-width: 280px;
+  max-width: 280px;*/
+  height: 386px;
   background-color: rgb(70, 141, 240);
   margin-top: 9.5%;
   margin-bottom: 1.4%;
@@ -124,5 +127,6 @@ footer p span {
   padding-right: 4.1%;
 }
 @media (max-width: 400px) {
-  .row{display: block; text-align: center;justify-content: center;margin-left: 17%; padding: 0;}
+  .row{display: block!important; text-align: center;justify-content: center;margin-left: 17%; padding: 0;}
+  #square1{height: 150px; width: 270px; margin-left: 3%;}
 }
